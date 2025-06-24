@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/text_box_bg"
+    android:padding="@dimen/_5mdp"
+    android:elevation="@dimen/_5mdp"
+    android:layout_margin="@dimen/_5mdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D7FFA183"
+                android:padding="@dimen/_5mdp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/surjodoi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:drawablePadding="@dimen/_5mdp"
+                    android:drawableStart="@drawable/sun_14"
+                    android:text="surjodoi\n06:05"/>
+                <TextView
+                    android:id="@+id/surjasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:drawablePadding="@dimen/_5mdp"
+                    android:drawableEnd="@drawable/sun_14"
+                    android:text="surjodoi\n06:05"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5mdp"
+                android:background="#D5FFE081"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/engDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14font_mdp"
+                    android:textColor="@color/red"
+                    android:text="28"/>
+                <TextView
+                    android:id="@+id/engMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/red"
+                    android:text="Feb, 2024"/>
+                <TextView
+                    android:id="@+id/engDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/red"
+                    android:text="Budhbar"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D080C7FF"
+                android:padding="@dimen/_5mdp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/arabDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14font_mdp"
+                    android:textColor="@color/black"
+                    android:text="28"/>
+                <TextView
+                    android:id="@+id/arabMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Feb, 2024"/>
+                <TextView
+                    android:id="@+id/arabDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Budhbar"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5mdp"
+                android:background="#D3C7FF86"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fazar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="fazar\n12:50\n12:35"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/johor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="fazar\n12:50\n12:35"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/asor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="fazar\n12:50\n12:35"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D3C7FF86"
+                android:padding="@dimen/_10mdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/magrib"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="fazar\n12:50\n12:35"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/isha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="fazar\n12:50\n12:35"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nisidhoSomoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="@dimen/_5mdp"
+                android:layout_gravity="center"
+                android:background="@color/gray"
+                android:gravity="center"
+                android:text="fazar\n12:50\n12:35"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/holiday"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_3mdp"
+        android:visibility="gone"
+        android:background="@color/red"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5mdp"
+        android:background="@drawable/bg_white_corner8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/todayIndicator"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:src="@drawable/double_arrow_24"/>
+
+        <TextView
+            android:id="@+id/seheri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/_4mdp"
+            android:text="sheri somoi\n12:05"
+            android:textColor="@color/greenDark" />
+        <View
+            android:layout_width="@dimen/_2mdp"
+            android:layout_height="match_parent"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/iftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/_4mdp"
+            android:text="sheri somoi\n12:05"
+            android:textColor="@color/greenDark" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/quran"
+        android:title="@string/quran"
+        android:icon="@drawable/quran"/>
+
+    <item android:id="@+id/hadis"
+        android:title="@string/learning"
+        android:icon="@drawable/book"/>
+
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/dua"
+        android:title="@string/dua"
+        android:icon="@drawable/dua"/>
+
+    <item android:id="@+id/practice"
+        android:title="@string/practice"
+        android:icon="@drawable/prac"/>
+
+
+</menu>

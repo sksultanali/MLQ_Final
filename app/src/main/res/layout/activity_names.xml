@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context=".Activities.NamesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:id="@+id/leaderRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_3mdp"
+        android:layout_marginStart="@dimen/_5mdp"
+        android:layout_marginEnd="@dimen/_5mdp"
+        android:layout_marginBottom="8dp"
+        app:shimmer_demo_angle="20"
+        tools:listitem="@layout/child_name_list"
+        app:shimmer_demo_child_count="5"
+        app:shimmer_demo_layout="@layout/demo_leader"
+        app:shimmer_demo_layout_manager_type="linear_vertical" />
+
+</LinearLayout>

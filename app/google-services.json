@@ -1,0 +1,109 @@
+{
+  "project_info": {
+    "project_number": "642401287812",
+    "firebase_url": "https://quiz-app-d3e51-default-rtdb.firebaseio.com",
+    "project_id": "quiz-app-d3e51",
+    "storage_bucket": "quiz-app-d3e51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642401287812:android:7abcb4be3573032f128cd1",
+        "android_client_info": {
+          "package_name": "com.developerali.myadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642401287812-tbr7hvk1lfplefos4o62qu15pa6580kk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developerali.myadmin",
+            "certificate_hash": "25dac1e17b9fe384a223b5cc00a678bc1568953b"
+          }
+        },
+        {
+          "client_id": "642401287812-kumric7b4lr8cv9lh4e42secpura1go6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDid2RvknTI2R5X8HbTM6kawUQDDf7PjIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642401287812-asfrs9j69j4o91fq57qjcaadv56959rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642401287812:android:a0c1ddd58f5c46c4128cd1",
+        "android_client_info": {
+          "package_name": "com.developerali.mylifequran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642401287812-0snp0h2jvruc44i6q8f5ce1f8el7r9ut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developerali.mylifequran",
+            "certificate_hash": "25dac1e17b9fe384a223b5cc00a678bc1568953b"
+          }
+        },
+        {
+          "client_id": "642401287812-fr8svr72ktim3k5tfqnferpk30pnm5cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developerali.mylifequran",
+            "certificate_hash": "d080943c6fec0762127aedb2e870c5dfcc140d35"
+          }
+        },
+        {
+          "client_id": "642401287812-ga0tunppnqblte7jtolfhce6dsacn647.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developerali.mylifequran",
+            "certificate_hash": "4b41fdd6f42b5659f45fa2601aa59ed83a1d0c11"
+          }
+        },
+        {
+          "client_id": "642401287812-ohnto2ukb8n53pd16obblb1ibpsen9kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developerali.mylifequran",
+            "certificate_hash": "3f7d323df03f2dce9df532bea9d26cc40595d07f"
+          }
+        },
+        {
+          "client_id": "642401287812-kumric7b4lr8cv9lh4e42secpura1go6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDid2RvknTI2R5X8HbTM6kawUQDDf7PjIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642401287812-asfrs9j69j4o91fq57qjcaadv56959rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

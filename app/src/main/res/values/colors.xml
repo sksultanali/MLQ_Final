@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#7DFF82</color>
+    <color name="purple_500">#4CAF50</color>
+    <color name="purple_700">#008305</color>
+    <color name="teal_200">#3BA8FF</color>
+    <color name="teal_700">#2196F3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_200">#7CD4FC</color>
+    <color name="blue_500">#509BBD</color>
+    <color name="blue_700">#0279AF</color>
+
+    <color name="orange">#FF5722</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2196F3</color>
+    <color name="pink">#F9E0F9</color>
+    <color name="red">#F44336</color>
+
+    <color name="gray">#eff2f7</color>
+    <color name="darkGray">#D5D7DC</color>
+    <color name="linkBack">#e9e6df</color>
+    <color name="greenDark">#007E05</color>
+    <color name="lightBlue">#7DC5FD</color>
+    <color name="yellow">#FFC107</color>
+
+    <color name="transparentColor">#00FFFFFF</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_gray_200">#D8F3FF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="selected_date">#FFCCCCCC</color>
+    <color name="icon_color">#757272</color>
+    <color name="purple_blue">#3F51B5</color>
+</resources>
